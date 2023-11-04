@@ -1,100 +1,84 @@
-# social-network
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Mini social network that I made as my first web app project.
+# Travel Planner
 
-## Demo
+A webisite that allows the user to collate all their travel plans and recommendations in one place.
 
-[social-network](http://46.101.189.55/login)
+- Deployed Link:
+https://travel-planner-procedural.herokuapp.com/
 
-## Screenshots
 
-![](screenshots/Screenshot%20from%202020-02-28%2023-25-47.png)
-![](screenshots/Screenshot%20from%202020-02-29%2019-02-15.png)
-![](screenshots/Screenshot%20from%202020-02-29%2019-04-54.png)
-![](screenshots/Screenshot%20from%202020-02-29%2019-06-32.png)
-![](screenshots/Screenshot%20from%202020-02-29%2019-07-23.png)
-![](screenshots/Screenshot%20from%202020-02-29%2019-07-45.png)
-![](screenshots/Screenshot%20from%202020-02-29%2019-07-06.png)
-![](screenshots/Screenshot%20from%202020-02-29%2002-19-26.png)
-![](screenshots/Screenshot%20from%202020-02-29%2019-21-47.png)
-![](screenshots/Screenshot%20from%202020-02-29%2019-01-38.png)
-![](screenshots/Screenshot%20from%202020-02-29%2019-08-45.png)
-![](screenshots/Screenshot%20from%202020-02-29%2019-25-55.png)
-![](screenshots/Screenshot%20from%202020-02-29%2019-26-42.png)
+## Description
 
-## Gif
+When you're planning a big trip and start researching where to go and what to do, it soon becomes apparent that there are so many options. And what about when you're at a party and the host's friend's boss' wife recommends that you go to a really great place to eat in a tiny village that you desperately want to remember. This travel planner replaces endless post-it notes, scribbles on the back of receipts and scrwals on the back of your hand that are bound to go a-miss.
 
-![](<screenshots/ezgif.com-video-to-gif%20(1).gif>)
+Create your own profile and build a trip where you can collate all your plans for places to go to eat, visit, activities to do and facts you want to remember. 
 
-## Link to a full video
+## Walk through
 
-[Video](https://streamable.com/5srsv)
+### **Start by creating a new account** 
 
-## Built With
 
-- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-- [Redux](https://redux.js.org/) - State managment
-- [Semantic UI React](https://react.semantic-ui.com/) - UI
-- [Socket.io](https://socket.io/) - Used for realtime features
-- [Node](https://nodejs.org/en/) - Used for backend
-- [Mongodb](https://www.mongodb.com/) - Database
+![tp-login](https://user-images.githubusercontent.com/95051960/175242947-984d7c3f-9847-440c-8e3b-66c0adbf0649.gif)
 
-## Features
 
-- Like posts, comments, replies
-- See likes for posts, comments, replies
-- Follow, unfollow
-- Update user information
-- Search users
-- Tag people on post and in comments with autocomplete
-- Send verification email
-- Pagination for home feed, user profile, hashtag page, location page, notifications, comments, replies
 
-### Realtime
+### **Add a new trip**
 
-- Get notification when someone likes your post, comment, reply, tag you on post or reply on comment
-- Chat send text message, image
-- Seen feature and activity status of user
+Don't worry if you make a mistake, you can edit these easily
 
-## Installing
 
-1. Install dependencies
+![tp-create-trip](https://user-images.githubusercontent.com/95051960/175243248-1c509a0a-ddfb-458a-af88-24dc1076a4a3.gif)
 
-```
-npm i && cd client && npm i && cd ..
-```
+### **Add plans to your trip**
 
-2. Create variables.env file and replace values with yours
+Create as many plans as you'd like! If you make a mistake, easily edit and update. 
 
-```
-NODE_ENV=development
-DATABASE="Mongodb Connection String"
-JWT_KEY="secretkey"
-EMAILUSER="example@gmail.com"
-EMAILPASS="example"
-HOST="your ip eg. http://192.168.0.14:5000"
-ENABLE_SEND_EMAIL="true or false" // false if you don't want to set it up
-TEST_DATABASE="testing db"
-```
+![tp-add-plan](https://user-images.githubusercontent.com/95051960/175244060-af75859f-4f9a-472c-8d3d-62a744550315.gif)
 
-3. Go into `client/src/_services/socketService.js` and replace
+### **Add facts to your trip** 
 
-```
-window.location.hostname
-```
 
-with your local IP address on port 5000 eg.
+![tp-add-fact](https://user-images.githubusercontent.com/95051960/175244298-e0ed29d7-9576-4e8b-b36f-10cb3d92bd2b.gif)
 
-```
-192.168.0.14:5000
-```
 
-4. Run project
+### **Travel planner will organise your trips to previous trips and upcoming**
 
-```
-npm run dev
-```
 
-## Contribute
+![tp-organise](https://user-images.githubusercontent.com/95051960/175244742-019c58e8-198a-4cba-849f-bbdd15f9796a.gif)
 
-Show your support by ⭐ the project.
+
+## Execution 
+
+Travel Planner is a fully functioning MERN application with a clean, efficient user interface successfully deployed with heroku using back end and front end technologies:
+
+
+- React.js
+- JSX
+- CSS
+- Bootstap
+- React Modal
+- Day.js
+- Node.js
+- Express
+- Apollo
+- GraphQl
+- MongoDB
+- Mongoose
+- Day.js
+- Validator
+- Byrcpt
+- Json Web Token
+
+
+##### Contributors
+
+- [Andrea Mac](https://github.com/Invogue01)
+- [Corey Johns](https://github.com/Corey96)
+- [Dylan Allison](https://github.com/DBAX7)
+- [Julia Gray](https://github.com/jgray33)
+- [Oliver Drew](https://github.com/oli-drew)
+- [Sanyiah](https://github.com/san098765432)
+- [Zain Abidin](https://github.com/zainuabidin)
+
+
